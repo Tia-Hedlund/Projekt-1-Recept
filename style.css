@@ -13,6 +13,11 @@ h1{
     font-size: 20px;
 }
 
+h2{
+    font-size: 40px;
+    margin: 3%;
+}
+
 aside{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -25,32 +30,40 @@ aside{
     height: auto;
 }
 
+#PicknickBild{
+    height: 100%;
+}
+
 #receptBox{
     margin-left: auto;
     margin-right: auto;
     margin-top: 4%;
     margin-bottom: 4%;
     width: 70%;
-    height: 40%;
     display: grid;
-    grid-template-columns: 45% 55%;
+    grid-template-columns: 40% 60%;
     grid-template-rows: 1fr 1fr;
 }
 
-#infoBox{
+.receptBoxDel{
     background-color: white;
-    padding: 7%; 
+    padding: 5%; 
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
-#MatBildBox{
-    background-color: white;
-    padding: 7%;
+#info{
+    display: flex;
+    flex-direction: row;
+    gap:5%;
 }
 
 #MatBild{
-    height: 65%;
-    width: auto,
+    height: auto;
+    width: 100%;
 }
+
+
 
 #kommentarer{
     background-color: rgb(193, 201, 211);
