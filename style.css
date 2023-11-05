@@ -67,4 +67,16 @@ aside{
 
 #kommentarer{
     background-color: rgb(193, 201, 211);
+    display: flex;
+    flex-direction: row;
+    padding: 2%;
+    justify-content: space-evenly;
+}
+
+.kommentarBox{
+    background-color: rgb(243, 243, 243);
+    border-radius: 3%;
+    border: 3px solid rgb(243, 243, 243);
+    margin: 2%;
+    width: 30%;
 }
