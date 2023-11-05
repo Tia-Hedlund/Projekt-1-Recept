@@ -10,11 +10,12 @@ h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-variant: small-caps;
     text-align: center;
-    font-size: 20px;
+    font-size: 2vw;
+    font-weight: 200;
 }
 
 h2{
-    font-size: 40px;
+    font-size: 3vw;
     margin: 3%;
 }
 
@@ -30,40 +31,59 @@ aside{
     height: auto;
 }
 
-#PicknickBild{
+#picknickBild{
     height: 100%;
 }
 
 #receptBox{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 1fr 1fr;
     margin-left: auto;
     margin-right: auto;
     margin-top: 4%;
     margin-bottom: 4%;
     width: 70%;
-    display: grid;
-    grid-template-columns: 40% 60%;
-    grid-template-rows: 1fr 1fr;
 }
 
 .receptBoxDel{
     background-color: white;
-    padding: 5%; 
+    padding: 2vw;
     margin-top: 5px;
     margin-bottom: 5px;
 }
 
-#info{
+#infoText{
+    margin:3%;
+    margin-top: 10%;
+    font-size: 1.2vw;
+}
+
+#infoBox{
+    align-self:flex-end;
     display: flex;
     flex-direction: row;
     gap:5%;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1vw;
 }
 
-#MatBild{
+#betyg{
+    width: 10vw; 
+    height: auto;
+}
+
+#matBild{
     height: auto;
     width: 100%;
 }
 
-
+h3{
+    font-size: 2vw;
+    margin: 3%;
+}
 
 #kommentarer{
     background-color: rgb(193, 201, 211);
@@ -78,32 +98,35 @@ aside{
     border-radius: 7%;
     border: 3px solid rgb(243, 243, 243);
     margin: 2%;
-    width: 30%;
-    padding: 3vh;
+    width: 30vw;
+    padding: 2vw;
     display: flex;
     flex-direction: column;
 }
 
 h4{
-    font-size: 25px;
+    font-size: 1.2vw;
     margin-bottom: 0px;
+    padding-left: 5%;
 }
 
 .kommentar{
-    font-size: 25px;
+    font-size: 1.2vw;
     margin-bottom: 0px;
+    padding-left: 5%;
 }
 
 .profilCirkel{
-    height: 70px;
-    width: 70px;
+    height: 4vw;
+    width: 4vw;
     background-color: rgb(213, 213, 213);
     border-radius: 50%;
     display: inline-block;
 }
 
 #kommentarRating{
-    height: 40%;
-    width: auto;
+    width: 10vw; 
+    height: auto;
     align-self:flex-end;
+    margin:0%;
 }
