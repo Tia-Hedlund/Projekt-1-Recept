@@ -3,10 +3,38 @@ body{
     background-color: #F5F5F5 ;
 }
 
+#fixedTop{
+    position: fixed;
+}
+
+#rect{
+    width: 100vw;
+    height: 1.5vw;
+    background-color: #98A0A7;
+}
+
+header{
+    background-color: #E6EAED;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 10px 15px -10px rgba(0, 0, 0, 0.6);
+}
+
+#blomma1, #blomma2{
+    height: 4vw;
+    width: 13vw;
+}
+
+#blomma2{
+    transform: scaleX(-1);
+}
+
 h1{
     margin: 0px;
     padding: 1%;
-    background-color: #E6EAED;
+
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-variant: small-caps;
     text-align: center;
@@ -41,8 +69,8 @@ aside{
     grid-template-rows: 1fr 1fr;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 4%;
-    margin-bottom: 4%;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
     width: 70%;
 }
 
@@ -98,6 +126,11 @@ h3{
     width: 7vw;
 }
 
+li{
+    margin:3%;
+}
+
+
 .tips{
     color: #728896;
 }
@@ -133,8 +166,8 @@ h4{
 }
 
 .profilCirkel{
-    height: 4vw;
-    width: 4vw;
+    height: 3.5vw;
+    width: 3.5vw;
     background-color: #D9D9D9;
     border-radius: 50%;
     display: inline-block;
