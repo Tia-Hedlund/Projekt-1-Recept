@@ -1,12 +1,12 @@
 body{
     margin: 0px;
-    background-color: rgb(243, 243, 243) ;
+    background-color: #F5F5F5 ;
 }
 
 h1{
     margin: 0px;
     padding: 1%;
-    background-color: rgb(240, 240, 240);
+    background-color: #E6EAED;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-variant: small-caps;
     text-align: center;
@@ -47,7 +47,7 @@ aside{
 }
 
 .receptBoxDel{
-    background-color: white;
+    background-color: #FFFFFF;
     padding: 2vw;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -103,7 +103,7 @@ h3{
 }
 
 #kommentarer{
-    background-color: rgb(193, 201, 211);
+    background-color: #D3DaDf;
     display: flex;
     flex-direction: row;
     padding: 2%;
@@ -111,9 +111,8 @@ h3{
 }
 
 .kommentarBox{
-    background-color: rgb(243, 243, 243);
+    background-color: #F5F5F5;
     border-radius: 7%;
-    border: 3px solid rgb(243, 243, 243);
     margin: 2%;
     width: 30vw;
     padding: 2vw;
@@ -136,7 +135,7 @@ h4{
 .profilCirkel{
     height: 4vw;
     width: 4vw;
-    background-color: rgb(213, 213, 213);
+    background-color: #D9D9D9;
     border-radius: 50%;
     display: inline-block;
 }
