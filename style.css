@@ -51,6 +51,7 @@ aside{
     padding: 2vw;
     margin-top: 5px;
     margin-bottom: 5px;
+    font-size: 1.2vw;
 }
 
 #infoText{
@@ -83,6 +84,18 @@ aside{
 h3{
     font-size: 2vw;
     margin: 3%;
+}
+
+.bildIngrediens{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2%;
+    margin: 0px;
+}
+
+#bildSpaghetti, #bildBacon, #bildParmesan{
+    width: 7vw;
 }
 
 #kommentarer{
