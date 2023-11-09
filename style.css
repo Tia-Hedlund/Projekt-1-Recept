@@ -9,12 +9,12 @@ body{
 
 #rect{
     width: 100vw;
-    height: 1.5vw;
+    height: 1vw;
     background-color: #98A0A7;
 }
 
 header{
-    background-color: #E6EAED;
+    background-color: #f0f2f3;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -23,8 +23,10 @@ header{
 }
 
 #blomma1, #blomma2{
-    height: 4vw;
-    width: 13vw;
+    height: 3vw;
+    width: 8.5vw;
+    padding-top: 0.2%;
+    padding-bottom:0.1%;
 }
 
 #blomma2{
@@ -33,12 +35,10 @@ header{
 
 h1{
     margin: 0px;
-    padding: 1%;
-
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-variant: small-caps;
     text-align: center;
-    font-size: 2vw;
+    font-size: 1.7vw;
     font-weight: 200;
 }
 
@@ -65,7 +65,7 @@ aside{
 
 #receptBox{
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 37% 63%;
     grid-template-rows: 1fr 1fr;
     margin-left: auto;
     margin-right: auto;
@@ -77,26 +77,26 @@ aside{
 .receptBoxDel{
     background-color: #FFFFFF;
     padding: 2vw;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
     font-size: 1.2vw;
 }
 
-#infoText{
+.infoText{
     margin:3%;
     margin-top: 10%;
     font-size: 1.2vw;
 }
 
 #infoBox{
-    align-self:flex-end;
+    margin-top: 5vw;
+    padding-left: 1vw;
     display: flex;
     flex-direction: row;
-    gap:5%;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1vw;
+    font-size: 0.9vw;
 }
 
 #betyg{
@@ -111,7 +111,11 @@ aside{
 
 h3{
     font-size: 2vw;
-    margin: 3%;
+    margin-left: 3%;
+}
+
+.ingredienser{
+    margin-left:3%;
 }
 
 .bildIngrediens{
@@ -126,10 +130,18 @@ h3{
     width: 7vw;
 }
 
+ol{
+    padding-left: 5%;
+}
+
 li{
     margin:3%;
 }
 
+h5{
+    font-size: 1.2vw;
+    margin-bottom: 0px;
+}
 
 .tips{
     color: #728896;
